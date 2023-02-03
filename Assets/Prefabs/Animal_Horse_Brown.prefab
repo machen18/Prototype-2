@@ -1376,6 +1376,8 @@ GameObject:
   - component: {fileID: 7349537631677508620}
   - component: {fileID: 7349537631271709074}
   - component: {fileID: 1939371297}
+  - component: {fileID: 65893724995293207}
+  - component: {fileID: 8882256081414846509}
   m_Layer: 0
   m_Name: Animal_Horse_Brown
   m_TagString: Untagged
@@ -1447,6 +1449,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bd83ebb3fb3b74f898cf2522af95ef03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &65893724995293207
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7349537631670347460}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 20.500916, y: 43.878555, z: 48.108105}
+  m_Center: {x: 0.6215632, y: 18.801884, z: 4.446323}
+--- !u!114 &8882256081414846509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7349537631670347460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e74dc21e602489aa1174c66b14e643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7349537631670353566
